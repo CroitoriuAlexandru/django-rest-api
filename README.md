@@ -26,6 +26,8 @@ django-rest-starter/
 
 ## Getting Started
 
+aisudfhglasdf
+
 1. Clone this repository to your local machine:
 
    ```shell
