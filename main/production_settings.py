@@ -25,7 +25,7 @@ ALLOWED_HOSTS = ["*"]
 
 # Edit the following line and place your railway URL, and your custom URL in the array.
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.up.railway.app", 
+    "https://django-rest-starter-production-5d42.up.railway.app", 
     # NOTE: Place your custom url here if any
 ]
 
