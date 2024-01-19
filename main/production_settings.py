@@ -21,7 +21,7 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://django-rest-starter-production-5d42.up.railway.app"]
 
 # Edit the following line and place your railway URL, and your custom URL in the array.
 CSRF_TRUSTED_ORIGINS = [
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'whitenoise',
     "rest_framework",
     "corsheaders",
 ]
